@@ -1,0 +1,13 @@
+windows:
+  - name: server
+    layout: even-vertical
+    root: /var/log/nginx
+    panes:
+        - tail -f access.log
+        - tail -f error.log
+  - name: system
+    layout: even-vertical
+    root: ~/
+    panes:
+        - glance
+        - htop
