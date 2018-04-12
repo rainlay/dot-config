@@ -5,4 +5,4 @@ myhome=/home/$whoami
 #backup tmux config
 cp "$myhome/.tmux.conf" "$basedir"
 
-#cp -R "$myhome/.teamocil" "$basedir"
+cp -R "$myhome/.teamocil" "$basedir"
